@@ -6,7 +6,7 @@ function ativa() {
         document.querySelector('.menuMobile').src="img/Menu.svg";
     } else {
         menu.classList.add('ativar');
-        document.querySelector('.menuMobile').src="img/close.svg";
+        document.querySelector('.menuMobile').src="img/Close.svg";
     }
 }
 
