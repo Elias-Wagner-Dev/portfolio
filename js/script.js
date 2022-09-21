@@ -10,3 +10,19 @@ function ativa() {
     }
 }
 
+
+const secundo = 'Portifolio';
+let digita2 = document.querySelector('.digitarp');
+
+
+for (let index = 0; index < (secundo.length); index++) {
+    
+        (function (pos) {
+            setTimeout(function () {
+                digita2.innerHTML += secundo.charAt(pos);
+            }, 400 * pos);
+        })(index);
+    
+
+
+}
