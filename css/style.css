@@ -145,4 +145,7 @@ a {
         justify-content: space-around;
         align-items: center;
     }
+    .redesMobile{
+        display: none;
+    }
 }
