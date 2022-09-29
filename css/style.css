@@ -82,7 +82,7 @@ a {
         height: 607px;
         display: flex;
         flex-direction: column;
-
+       
         align-items: center;
         float: left;
     }
@@ -92,7 +92,7 @@ a {
         color: #fff;
         margin-top: 2%;
         font-family: 'Dancing Script', cursive;
-        font-size: 4rem;
+        font-size: min(68px,6vh);
      
 
     }
@@ -100,7 +100,7 @@ a {
     #por {
         color: #00B1FD;
         margin-top: 2%;
-        font-size: 6rem;
+        font-size: 12vh;
         font-family: 'Dancing Script', cursive;
 
 
@@ -118,13 +118,13 @@ a {
     }
 
     #marg {
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .imgBanner {
         display: flex;
         width: 50%;
-        height: 607px;
+        height: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;

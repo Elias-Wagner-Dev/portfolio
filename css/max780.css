@@ -191,17 +191,54 @@
         font-size: 1rem;
     }
     .projeto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         width: 100%;
-        height: 400px;
+        height: 700px;
         background-color: #000000;
     }
-    .perfil{
-        width: 100%;
-        height: 400px;
+    .card{
+        border: #5c5c5c solid 2px;
+        width: 250px;
+        height: 300px;
+    
+        
     }
     .rodape{
         width: 100%;
         height: 400px;
+        display: flex;
+        justify-content: space-around;
         background-color: #000000;
+    }
+    .redesMobileRodape{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        width: 40px;
+        height: 100%;
+        
+    }
+    .textoRodape{
+        width: 250px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nome{
+        color: #00B1FD;
+        font-size: 5vh;
+        font-family: 'Dancing Script', cursive;;
+    }
+    .adeus{
+        color: #00B1FD;
+        font-size: 2vh;
+        font-family: 'Dancing Script', cursive;;
     }
 }
