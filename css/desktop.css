@@ -15,7 +15,7 @@ a {
 
 }
 
-@media(min-width:780px) {
+@media(min-width:1200px) {
     .navBarMobile {
         width: 100%;
         height: 64px;
@@ -92,7 +92,7 @@ a {
         color: #fff;
         margin-top: 2%;
         font-family: 'Dancing Script', cursive;
-        font-size:5.8vh;
+        font-size:8vh;
      
 
     }
@@ -147,5 +147,102 @@ a {
     }
     .redesMobile{
         display: none;
+    }
+    .secaoDeDescricao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+
+    }
+    .secaoDeDescricao>p{
+        font-size: 1rem;
+    }
+    .projeto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        background-color: #000000;
+    }
+    .card{
+        width: 300px;
+        height: 450px;
+        border: #5c5c5c solid 1px;
+    }
+    #tt{
+        display: flex;
+        width: 300px;
+        height: 450px;
+        border: #5c5c5c solid 1px;
+    }
+    #mostra{
+        display: none;
+    }
+    .btncard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color: #000000;
+    }
+    .botaocard{
+        width: 60%;
+        height: 80px;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #ffffff;
+        border-bottom-left-radius: 80%;
+        border-bottom-right-radius: 80%;
+    }
+    .rodape{
+        border-top: #5c5c5c solid 1px;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #000000;
+    }
+    .redesMobileRodape{
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+        
+        width: 100%;
+        height: 40%;
+        
+    }
+    .textElias{
+        display: flex;
+        height: 200px;
+        width: 90%;
+    }
+    .textElias>p{
+       font-size: 1rem;
+       margin: auto;
+       margin-left: 20%;
+    }
+    .textoRodape{
+        width: 100%px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nome{
+        color: #00B1FD;
+        font-size: 19vh;
+        font-family: 'Dancing Script', cursive;;
+    }
+    .adeus{
+        color: #00B1FD;
+        font-size: 32px;
+        font-family: 'Dancing Script', cursive;;
     }
 }
