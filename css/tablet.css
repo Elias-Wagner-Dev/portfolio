@@ -200,6 +200,10 @@
         height: 100%;
         
     }
+     .redesMobileRodape>img{
+        width: 42px;
+        height:42px;
+    }
     .textElias{
         display: flex;
         height: 200px;

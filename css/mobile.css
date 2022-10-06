@@ -263,6 +263,10 @@
         height: 100%;
         
     }
+     .redesMobileRodape>img{
+        width: 32px;
+        height:32px;
+    }
     .textoRodape{
         width: 250px;
         height: 100%;

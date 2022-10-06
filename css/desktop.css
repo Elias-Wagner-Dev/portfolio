@@ -217,6 +217,10 @@ a {
         height: 40%;
         
     }
+    .redesMobileRodape>img{
+        width: 62px;
+        height:62px;
+    }
     .textElias{
         display: flex;
         height: 200px;
