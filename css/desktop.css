@@ -100,7 +100,7 @@ a {
     #por {
         color: #00B1FD;
         margin-top: 2%;
-        font-size: 9rem;
+        font-size: 12vh;
         font-family: 'Dancing Script', cursive;
 
 
@@ -241,7 +241,7 @@ a {
     }
     .nome{
         color: #00B1FD;
-        font-size: 9rem;
+        font-size: 19vh;
         font-family: 'Dancing Script', cursive;;
     }
     .adeus{
