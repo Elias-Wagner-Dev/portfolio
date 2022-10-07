@@ -76,7 +76,7 @@
         color: #fff;
         margin-top: 2%;
         font-family: 'Dancing Script', cursive;
-        font-size:4vh;
+        font-size:min(4vh,42px);
      
 
     }
@@ -84,7 +84,7 @@
     #por {
         color: #00B1FD;
         margin-top: 2%;
-        font-size: 12vh;
+        font-size: min(12vh, 50px);
         font-family: 'Dancing Script', cursive;
 
 
@@ -224,7 +224,7 @@
     }
     .nome{
         color: #00B1FD;
-        font-size: 12vh;
+        font-size: min(12vh,42px);
         font-family: 'Dancing Script', cursive;;
     }
     .adeus{
