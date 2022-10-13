@@ -15,6 +15,9 @@
         text-decoration: none;
 
     }
+    html{
+        background-color: #000000;
+    }
 
     .navBarMobile {
         position: fixed;
@@ -229,12 +232,15 @@
     .textElias{
         display: flex;
         height: 200px;
-        width: 90%;
+        width: 100%;
+        border-top: #5c5c5c solid 1px;
+       
     }
     .textElias>p{
        font-size: 1rem;
        margin: auto;
-       margin-left: 20%;
+       text-align: center;
+       color: #ffffff;
     }
     .botaocard{
         width: 60%;
